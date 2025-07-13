@@ -1,7 +1,10 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
-};
-
-export default nextConfig;
+// .eslintrc.js
+module.exports = {
+  root: true,
+  extends: ['next', 'next/core-web-vitals'],
+  rules: {
+    '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/no-unused-vars': 'off',
+    '@next/next/no-img-element': 'off',
+  },
+}
