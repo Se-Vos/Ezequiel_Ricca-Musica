@@ -1,0 +1,11 @@
+{
+  "version": "0.2.0",
+  "configurations": [],
+  "compounds": [
+    {
+      "name": "Auto Start Dev Server",
+      "preLaunchTask": "Iniciar servidor",
+      "configurations": []
+    }
+  ]
+}

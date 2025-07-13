@@ -1,0 +1,10 @@
+{
+  "auto-run-command.commands": [
+    {
+      "match": ".*",
+      "isShellCommand": true,
+      "command": "npm run dev",
+      "runIn": "terminal"
+    }
+  ]
+}
